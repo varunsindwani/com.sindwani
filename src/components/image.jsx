@@ -29,6 +29,7 @@ const Image = props => (
       const imageSizes = image.node.childImageSharp.sizes;
       return (
         <Img
+          className="inline-block w-full"
           alt={props.alt}
           sizes={imageSizes}
         />
