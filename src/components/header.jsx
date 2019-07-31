@@ -8,9 +8,9 @@ const Header = () =>  {
     <header className="max-w-full">
     <nav className="">
         <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
-          <Link to="/" className="flex items-center no-underline text-white">
+          <Link to="/" className="flex items-start no-underline text-white">
             <svg
-              className="fill-current h-8 mr-2 w-8"
+              className="fill-current h-8 w-8"
               width="54"
               height="54"
               viewBox="0 0 54 54"
@@ -45,6 +45,13 @@ const Header = () =>  {
                 className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
               >
                 Home
+              </Link>
+
+              <Link
+                to="/aboutme"
+                className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              >
+                About Me
               </Link>
 
               <Link

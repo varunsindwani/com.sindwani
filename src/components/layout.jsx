@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen bg-purple-700">
       <Header />
-      <main className="flex flex-col flex-1 md:justify-center max-w-4xl mx-auto px4 py-8 md:p-8 w-full">
+      <main className="flex flex-col flex-1 md:justify-center max-w-4xl py-8 w-full">
         {children}
       </main>
       <footer className="bg-gray-800 w-full p-1">
@@ -28,13 +28,13 @@ const Layout = ({ children }) => {
             <Image filename="instagram-logo.png" />
           </div>
           <div className="inline-flex items-center w-3 m-3">
-            <Image filename="instagram-logo.png" />
+            <Image filename="github-logo.png" />
           </div>
           <div className="inline-flex items-center w-3 m-3">
-            <Image filename="instagram-logo.png" />
+            <Image filename="linkedin-logo.png" />
           </div>
           <div className="inline-flex items-center w-3 m-3">
-            <Image filename="instagram-logo.png" />
+            <Image filename="email-logo.png" />
           </div>
           <div className="inline-flex items-center w-3 m-3">
             <Image filename="instagram-logo.png" />
