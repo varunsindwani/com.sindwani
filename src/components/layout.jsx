@@ -28,16 +28,16 @@ const Layout = ({ children }) => {
             <Image filename="instagram-logo.png" />
           </div>
           <div className="inline-flex items-center w-3 m-3">
-            <Image filename="github-logo.png" />
+            <Image filename="youtube-logo.png" />
           </div>
           <div className="inline-flex items-center w-3 m-3">
-            <Image filename="linkedin-logo.png" />
+            <Image filename="github-logo.png" />
           </div>
           <div className="inline-flex items-center w-3 m-3">
             <Image filename="email-logo.png" />
           </div>
           <div className="inline-flex items-center w-3 m-3">
-            <Image filename="instagram-logo.png" />
+            <Image filename="linkedin-logo.png" />
           </div>
         </section>
 
