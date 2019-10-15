@@ -8,16 +8,16 @@ import SEO from '../components/seo';
 const HomePage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="flex flex-row">
-      <div className="mt-auto mb-auto">
-        <h1 className="text-6xl text-white font-bold tracking-tighter">Hi, I'm Varun</h1>
-        <h2 className="text-2xl text-white overflow-auto tracking-wide">I build things and sometimes they work</h2>
-        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+    <div className="container mx-auto flex flex-wrap flex-col-reverse md:flex-row ">
+      <div className="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
+        <h1 className="text-6xl text-white font-bold tracking-tight">Hi, I'm Varun</h1>
+        <h2 className="text-2xl text-white tracking-wide mb-3">I build things and sometimes they work</h2>
+        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center ml-auto mr-auto md:m-0">
           <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
           <span>Resume</span>
         </button>
       </div>
-      <div className="w-1/3 ml-auto">
+      <div className="w-1/2 ml-auto mr-auto md:w-1/3 md:ml-auto md:mr-0">
         <Image filename="profile-pic.png" />
       </div>
     </div>
