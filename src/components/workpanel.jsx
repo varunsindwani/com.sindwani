@@ -21,9 +21,7 @@ const WorkPanel = () =>  {
 
                 <div className="p-1">
                     <h2>
-                        Spent a semester studing art history, French, fashion and interior design in the 6th 
-                        arrondissement of Paris. Additional recreational coursework in French cooking, wine 
-                        tasting, and cheese pairing.
+                        Learnt alot of stuff
                     </h2>
                 </div>
 
