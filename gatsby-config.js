@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Battlecry Starter`,
-    description: `A batteries included starter`,
+    title: `Varun Sindwani`,
+    description: `The Personal Website of Varun Sindwani`,
     author: `Varun Sindwani`,
   },
   plugins: [
@@ -18,12 +18,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `battlecry-starter`,
-        short_name: `battlecry`,
+        name: `com.sindwani`,
+        short_name: `com.sindwani`,
         start_url: `/`,
-        background_color: `#6c63ff`,
-        theme_color: `#6c63ff`,
-        display: `minimal-ui`,
         icon: `src/assets/icons/hammer.png`,
       }, 
     },
