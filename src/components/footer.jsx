@@ -5,20 +5,30 @@ const Footer = () =>    {
     return(
         <footer className="bg-gray-800 w-full p-1">
         <section className="text-center">
-          <div className="inline-flex items-center w-3 m-3">
-            <Image filename="instagram-logo.png" />
+          <div className="inline-block items-center w-3 m-3">
+            <a href="https://www.instagram.com/varun.sindwani/">
+              <Image filename="instagram-logo.png" />
+            </a>
           </div>
-          <div className="inline-flex items-center w-3 m-3">
-            <Image filename="youtube-logo.png" />
+          <div className="inline-block items-center w-3 m-3">
+            <a href="https://www.youtube.com/channel/UCqoGMeWTAUQBDCpnY_zff-w/">
+              <Image filename="youtube-logo.png" />
+            </a>
           </div>
-          <div className="inline-flex items-center w-3 m-3">
-            <Image filename="github-logo.png" />
+          <div className="inline-block items-center w-3 m-3">
+            <a href="https://www.github.com/varunsindwani">
+              <Image filename="github-logo.png" />
+            </a>
           </div>
-          <div className="inline-flex items-center w-3 m-3">
-            <Image filename="email-logo.png" />
+          <div className="inline-block items-center w-3 m-3">
+            <a href="mailto:varun@sindwani.com">
+              <Image filename="email-logo.png" />
+            </a>
           </div>
-          <div className="inline-flex items-center w-3 m-3">
-            <Image filename="linkedin-logo.png" />
+          <div className="inline-block items-center w-3 m-3">
+            <a href="https://www.linkedin.com/in/varunsindwani">
+              <Image filename="linkedin-logo.png" />
+            </a>
           </div>
         </section>
       </footer>
