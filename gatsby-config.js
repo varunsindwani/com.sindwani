@@ -21,7 +21,7 @@ module.exports = {
         name: `com.sindwani`,
         short_name: `com.sindwani`,
         start_url: `/`,
-        icon: `src/assets/icons/hammer.png`,
+        icon: `src/assets/icons/images.png`,
       }, 
     },
     `gatsby-plugin-styled-components`,
