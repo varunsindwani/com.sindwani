@@ -24,7 +24,6 @@ module.exports = {
         icon: `src/assets/images/profile-pic.png`,
       }, 
     },
-    `gatsby-plugin-styled-components`,
     { 
       resolve: `gatsby-plugin-purgecss`,
       options: {
