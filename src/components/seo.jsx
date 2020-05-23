@@ -30,11 +30,11 @@ function SEO(
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`${site.siteMetadata.title}`}
       meta={[
         {
           name: 'description',
-          content: metaDescription,
+          content: 'Hi! This is my personal website if you want to know more about me this is the place to be :)',
         },
         {
           property: 'og:title',
@@ -42,7 +42,7 @@ function SEO(
         },
         {
           property: 'og:description',
-          content: metaDescription,
+          content: 'Hi! This is my personal website if you want to know more about me this is the place to be :)',
         },
         {
           property: 'og:type',
@@ -50,11 +50,11 @@ function SEO(
         },
         {
           name: 'twitter:card',
-          content: 'summary',
+          content: '@VarunSindwani',
         },
         {
           name: 'twitter:creator',
-          content: site.siteMetadata.author,
+          content: '@VarunSindwani',
         },
         {
           name: 'twitter:title',
@@ -62,7 +62,7 @@ function SEO(
         },
         {
           name: 'twitter:description',
-          content: metaDescription,
+          content: "Hi I'm Varun Sindwani!",
         },
       ].concat(meta)}
     />

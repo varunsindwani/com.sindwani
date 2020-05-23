@@ -1,26 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 
-import Image from './image';
+import SEO from '../components/seo';
 import Header from './header';
 import Footer from './footer';
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
+const Layout = ({children}) => {
   return (
-    <div className="flex flex-col min-h-screen bg-purple-700">
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex flex-col flex-1 md:justify-center max-w-4xl mx-auto px-4 py-8 md:p-8 w-full">
+      <main className="flex flex-col flex-1 w-full items-center ">
+        <SEO title="Varun Sindwani" />
         {children}
       </main>
       <Footer />

@@ -21,8 +21,8 @@ const Footer = () =>    {
             </a>
           </div>
           <div className="inline-block items-center w-3 m-3">
-            <a href="mailto:varun@sindwani.com">
-              <Image filename="email-logo.png" />
+            <a href="https://twitter.com/VarunSindwani">
+              <Image filename="twitter-logo.png" />
             </a>
           </div>
           <div className="inline-block items-center w-3 m-3">

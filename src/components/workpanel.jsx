@@ -5,30 +5,36 @@ import PropTypes from 'prop-types';
 
 const WorkPanel = props =>  {
     return  (
-        <div className="flex flex-row mt-4 mb-8">
-            <div className="w-1/6 m-2">
-                <Image filename={props.image} />
-            </div>
-            <div>
-                <div className="flex flex-row flex-no-wrap">
-                    <div className="font-bold text-white p-1 mr-40">
-                        <h2 className="mb-1 mr-auto flex-no-wrap">{props.company}</h2>
-                        <h2 className="mr-auto">{props.title}</h2>
-                        
-                    </div>
-
-                    <div className="font-bold text-white p-1 ml-40 justify-end">
-                        <h2 className="mb-1 ml-auto">{props.date}</h2>
-                        <h2 className="">{props.location}</h2>
-                    </div>
-            </div>
-            <div className="m-1">
-                <h2>
-                    <Points desc={props.desc} />
-                </h2>
-            </div>
-            </div>
+        <div className="max-w-3xl flex flex-col sm:flex-row container font-main mt-16 md:px-8">
+        <div>
+          <img 
+            src={props.image} 
+            alt={props.company}
+            className="w-12 h-12 md:mr-10 ml-auto mr-auto rounded-full"
+            />
         </div>
+        <div className="w-full">
+          <div className="md:-mt-12 md:mb-4 -mt-20 mb-20">
+            {props.header}
+          </div>
+          <div>
+            <div className="flex flex-row w-full">
+              <h1 className="font-bold mx-auto sm:mx-0 text-center sm:text-left">{props.company}</h1>
+              <h1 className="ml-auto hidden sm:inline-block">{props.date}</h1>
+            </div>
+            <div className="flex flex-row w-full">
+              <h1 className="font-bold mx-auto sm:mx-0 text-center sm:text-left">{props.title}</h1>
+              <h1 className="ml-auto hidden sm:inline-block">{props.location}</h1>
+            </div>
+          </div>
+          <div className="mt-8 text-center md:text-left">
+            <div>
+             {props.desc}
+            </div>
+            <div className="mt-4 inline-block ml-auto mr-auto">{props.tags}</div>
+          </div>
+        </div>
+      </div>
     );
 }
 
