@@ -1,19 +1,12 @@
-import React, {Component} from 'react';
-import Slider from "react-slick";
-// import { Link } from 'gatsby';
+import React from 'react';
 
 import Layout from '../components/layout';
 import RoundImage from '../components/roundImage';
-import Image from '../components/image';
-import SEO from '../components/seo';
-import Quote from '../components/quote';
 import SCIFI from '../assets/images/scifi.gif'
 import ramen from '../assets/images/ramen.gif'
 import Pixel from '../assets/images/pixel.gif';
 import Teaching from '../assets/images/teaching.gif';
 import Hack from '../assets/images/hack.gif'
-
-import Friends from '../components/friends';
 
 const HomePage = () => (
   <Layout title="Home">
