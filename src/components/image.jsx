@@ -39,15 +39,15 @@ const Image = props => (
   />
 );
 
-Image.propTypes = {
-  filename: PropTypes.string,
-  alt: PropTypes.string,
-};
+// Image.propTypes = {
+//   filename: PropTypes.string,
+//   alt: PropTypes.string,
+// };
 
-Image.defaultProps = {
-  filename: '',
-  alt: '',
-};
+// Image.defaultProps = {
+//   filename: '',
+//   alt: '',
+// };
 
 
 export default Image;
