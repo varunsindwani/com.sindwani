@@ -167,40 +167,6 @@ const WorkPage = () => {
 
     <WorkPanel
       header={<br className="mb-1" />}
-      image={Ramen}
-      company="NightTime Ramen"
-      date="Dec. 2019 - Present"
-      title="Software Engineer"
-      location="Toronto, ON"
-      desc={
-        <div>
-         Developing Origrami a game engine for building immersive 2d games. Working with low level technologies such as C/C++, SDL, and OpenGL. Other projects include developing games ontop of the engine utilizing the same technologies.
-        </div>
-      }
-      tags={
-        <div className="flex flex-row">
-          <Tag
-            tag="C"
-            image={C}
-          />
-          <Tag
-            tag="C++"
-            image={CPP}
-          />
-          <Tag
-            tag="SDL"
-            image={SDL}
-          />
-          <Tag
-            tag="OpenGL"
-            image={OpenGL}
-          />
-        </div>
-      }
-    />
-
-    <WorkPanel
-      header={<br className="mb-1" />}
       image={Airgate}
       company="Airgate Technologies"
       date="July. 2019 - Aug. 2019" 
@@ -213,7 +179,7 @@ const WorkPage = () => {
         </div>
       }
       tags={
-        <div className="flex flex-row">
+        <div className="flex flex-row max-w-screen">
           <Tag
             tag="ReactJS"
             image={ReactJS}
@@ -255,7 +221,7 @@ const WorkPage = () => {
       location="Ottawa, ON"
       desc={
         <div>
-         Worked with other senior students in the department of Systems and Computer Engineering at Carleton University. Developed a variety of Workshops and Tutorials related to Computer Science and Software Engineering. Also leading the main website development and other engineering efforts.
+         Worked with other senior students in the department of Systems and Computer Engineering at Carleton University. Developed a variety of Workshops and Tutorials related to Computer Science and Software Engineering. Also leading some engineering efforts.
         </div>
       }
       tags={

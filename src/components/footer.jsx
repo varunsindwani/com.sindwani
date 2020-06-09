@@ -3,7 +3,7 @@ import Image from './image';
 
 const Footer = () =>    {
     return(
-        <footer className="bg-gray-800 w-full p-1">
+        <footer className="bg-gray-800 w-full p-1 mt-16">
         <section className="text-center">
           <div className="inline-block items-center w-3 m-3">
             <a href="https://www.instagram.com/varun.sindwani/">

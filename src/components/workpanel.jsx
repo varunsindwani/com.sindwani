@@ -31,7 +31,7 @@ const WorkPanel = props =>  {
             <div>
              {props.desc}
             </div>
-            <div className="mt-4 inline-block ml-auto mr-auto">{props.tags}</div>
+            <div className="mt-4 mx-auto max-w-screen">{props.tags}</div>
           </div>
         </div>
       </div>
