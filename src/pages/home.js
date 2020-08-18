@@ -38,8 +38,8 @@ const HomePage = () => (
     </div>
     </section>
     <section className="pb-20">
-      <div className=" w-3/4 lg:w-4/5 bg-gray-900 mx-auto rounded-lg overflow-x-scroll overflow-y-auto md:overflow-visible -mt-24">
-        <div className="w-screen max-w-6xl">
+      <div className=" bg-gray-900 mx-auto rounded-lg overflow-x-scroll overflow-y-auto md:overflow-visible -mt-24">
+        <div className="max-w-6xl overflow-x-scroll overflow-y-auto md:overflow-visible mr-4">
           <div>
             <button className="bg-purple-600 rounded-full h-3 w-3 mt-2 ml-3"></button>
             <button className="bg-blue-600 rounded-full h-3 w-3 mt-2 ml-2"></button>
