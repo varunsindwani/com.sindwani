@@ -132,7 +132,7 @@ const WorkPage = () => {
       location="Toronto, ON"
       desc={
         <div>
-          Developing a full stack web application to connect Authors with Publishers, Agents, and other industry professionals. Frontend is built using ReactJS0, Redux, and TypeScript. Backend is built using Django (Python) and PostgreSQL.
+          Developing a full stack web application to connect Authors with Publishers, Agents, and other industry professionals. Frontend is built using ReactJS, Redux, and TypeScript. Backend is built using Django (Python) and PostgreSQL.
         </div>
       }
       tags={

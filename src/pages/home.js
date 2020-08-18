@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'gatsby';
 import Layout from '../components/layout';
 import RoundImage from '../components/roundImage';
 import SCIFI from '../assets/images/scifi.gif'
@@ -14,9 +14,9 @@ const HomePage = () => (
       <div className="container mx-auto flex flex-wrap flex-col-reverse md:flex-col-reverse lg:flex-row">
       <div className="flex flex-col md:w-4/5 lg:w-3/5 items-start text-center md:text-left mx-auto">
         <h1 className="text-6xl text-white font-bold tracking-tight font-main mb-4">Hi, I'm Varun.</h1>
-        <h2 className="text-2xl text-white tracking-wide mb-4">I currently work at <a href="https://bannerpublish.com" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">
+        <h2 className="text-2xl text-white tracking-wide mb-4">I currently work at <a href="https://www.bannerpublish.com" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">
                                                               Banner</a> as a Full Stack Developer. Previously I worked at a Microsoft Partner.</h2>
-        <h2 className="text-2xl text-white tracking-wide mb-4 ">I serve as a Vice President for the Systems and Computer Engineering Society <a href="https://scesoc.com" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">(SCESOC)</a>. I also run <a href="https://blastforward.org" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">
+        <h2 className="text-2xl text-white tracking-wide mb-4 ">I serve as a Vice President for the Systems and Computer Engineering Society<a href="https://scesoc.com" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">(SCESOC)</a> and <a href="https://tedxcarleton.com" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400"> TedX</a>. I also run <a href="https://blastforward.org" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">
                                                               Blast</a>, <a href="https://hackcarleton.com" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">Hack</a>, and <a href="" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">OpenAPI</a>.</h2>
         <h2 className="text-2xl text-white tracking-wide mb-4">I am pursuing a Software Engineering (BEng) degree at <a href="https://carleton.ca" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">Carleton University</a> and studying UI/UX at <a href="https://ocadu.ca" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">OCAD</a>.</h2>
         <h2 className="text-2xl text-white tracking-wide mb-4">I ocasionally <a href="https://learnswe.com" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">blog</a> about tech, you can also find my thoughts on <a href="https://twitter.com/VarunSindwani" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">
@@ -27,10 +27,12 @@ const HomePage = () => (
         <RoundImage filename="varun.JPG" />
         <h1 className="my-2 text-2xl font-bold font-main text-white">Developer + Designer</h1>
         <div className="flex flex-col">
-          <button class="bg-white hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center ml-auto mr-auto md:m-0">
-            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-            <span>Resume</span>
-          </button>
+          <Link to="/work">
+            <button class="bg-white hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center ml-auto mr-auto md:m-0">
+              <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+              <span>Resume</span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -73,8 +75,8 @@ const HomePage = () => (
         <div className="font-main max-w-sm mx-auto mb-8">
           <h1 className="text-3xl font-bold">Because Games Matter?</h1>
           <p> I vivdly remember when I was younger pluging in the RCA connectors and playing my first game. The vast sea I explored in
-              Pirates of Carribean, exapnsive story of Power Rangers, and the fustration of playing Pacman. Gaming lead me to my interest in technology and
-              it has showed me the impact it can have
+              Pirates of Carribean, exapnsive story of Power Rangers, and the 'edge of the seat' excitement of playing Pacman. Gaming has led to my interest in technology and
+              the impact it can have on the world.
               <br/>
           <a href="https://www.youtube.com/watch?v=C6xz58O4xq8" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">Learn More</a></p>
         </div>
@@ -91,7 +93,7 @@ const HomePage = () => (
         </div>
         <div className="font-main max-w-sm mb-8 mx-auto">
           <h1 className="text-3xl font-bold">Teaching and the Future</h1>
-          <p>Believing in the open source ideology, I have always been trying to give back to the community for all the help I received in learning programming (Youtube, free books, etc). I believe it is everyones duty to pass on their knowledge <br/>
+          <p>Believing in the open source ideology, I have always been trying to give back to the community for all the help I received in learning programming (Youtube, free books, etc). I believe it is everyone's duty to pass on their knowledge <br/>
           <a href="https://www.youtube.com/watch?v=pW-SOdj4Kkk" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">Learn More</a></p>
         </div>
       </div>
@@ -129,7 +131,7 @@ const HomePage = () => (
       <div className="mx-auto flex flex-col max-w-6xl lg:flex-row">
         <div className="font-main max-w-sm mx-auto mb-8">
           <h1 className="text-3xl font-bold">Internet Privacy</h1>
-          <p> "If you have nothing to say should you not care about free speech?" I find even more prevalent today the need to protect yourself online. I am an advocater for internet education and how to keep your data safe. 
+          <p> "If you have nothing to say should you not care about free speech?" I find even more prevalent today the need to protect yourself online. I consider myself as an advocate for internet privacy and how to keep your data safe. 
             <br/>
           <a href="https://www.youtube.com/watch?v=yG4JL0ZRmi4" className="inline bg-gradient-t-highlight transition duration-700 hover:bg-blue-400">Learn More</a></p>
         </div>
