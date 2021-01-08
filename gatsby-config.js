@@ -31,7 +31,7 @@ module.exports = {
         printRejected: true,
         develop: true,
         tailwind: true,
-        purgeOnly : ['src/css/index.css'],
+        purgeOnly : ['src/css/tailwind.css'],
       }
     },
     `gatsby-plugin-offline`,
