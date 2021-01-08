@@ -5,6 +5,7 @@ module.exports = {
     author: `Varun Sindwani`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -30,10 +31,9 @@ module.exports = {
         printRejected: true,
         develop: true,
         tailwind: true,
-        purgeOnly : ['src/css/style.css'],
+        purgeOnly : ['src/css/index.css'],
       }
     },
-    `gatsby-plugin-postcss`,
     `gatsby-plugin-offline`,
   ],
 }

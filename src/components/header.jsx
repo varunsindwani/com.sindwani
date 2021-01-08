@@ -3,79 +3,80 @@ import React, { useState } from "react";
 
 import SWNI from '../assets/icons/swni.png';
 
-const Header = () =>  {
+import Twitter from '../assets/icons/twitter-logo.png'
+import Instagram from '../assets/icons/instagram-logo.png'
+import Linkedin from '../assets/icons/linkedin-logo.png'
 
+const Header = () =>  {
+  // const divEl = document.querySelector('#my_div');
+  // const text = "SINDWANI"
+  // divEl.addEventListener('mouseenter', () => text = "AGGESG");
+  const [text, setText] = useState("SINDWANI");
   const [isExpanded, toggleExpansion] = useState(false);
   return  (
-      <nav className="bg-purple-700">
-        <div className="flex flex-wrap items-center justify-between p-4 md:p-4 w-full">
-          <div className="pl-1 lg:pl-5">
-            <Link to="/">
-              <img 
-                src={SWNI}
-                className="h-12 w-12 inline-block "
-              />
-            </Link>
-          </div>
-          <button
-            className="block md:invisible flex flex-col items-center py-2 text-white ml-auto"
-            onClick={() => toggleExpansion(!isExpanded)}
-          >
-            <svg
-              className="fill-current h-8 w-8"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-          <div
-              className={`${
-                isExpanded ? `block` : `hidden`
-              } md:block md:flex md:items-center w-full md:w-auto text-center`}
-            >
-            <div className="md:text-md lg:text-xl font-main">
-              <Link
-                to="/"
-                className="block md:inline-block mt-4 md:mt-0 mr-0 md:mr-6 no-underline"
-              >
-                <button className="font-bold py-2 px-4 rounded hover:text-white hover:bg-purple-700 bg-purple-700 text-white">
-                  Home
-                </button>
-              </Link>
+    //  <div className="bg-primary uppercase font-main">
+    //    <div className=" px-16 pt-8 pb-4 flex">
+    //   <Link to="/" className="flex w-48" 
+    //    onMouseEnter={() => setText("सिंदवानी")}
+    //    onMouseLeave={() => setText("SINDWANI")}
+    //   >
+    //       <img src={SWNI} className="w-12 h-12 bg-white"/>
+    //       <h1 className="ml-4 text-white font-bold my-auto text-xl w-16">{text}</h1>
+    //     </Link>
+    //     <div className="text-white font-bold ml-auto my-auto w-full max-w-lg">
+    //       <ul className="flex justify-between">
+    //         <a href="https://res.sindwani.com" target="_blank" rel="noopener noreferrer">Work</a>
+    //         <Link to="/projects">Projects</Link>
+    //         <Link to="/contact">Contact</Link>
+    //         <a href="https://instagam.com/varun.sindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Instagram} /></a>
+    //         <a href="https://twitter.com/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Twitter} /></a>
+    //         <a href="https://linkedin.com/in/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Linkedin} /></a>
+    //       </ul>
+    //     </div>
+    //    </div>
+    //  </div>
+    <header className="bg-primary">
+    <div className="flex flex-wrap items-center justify-between px-4 lg:px-16 pt-8 pb-4 mx-auto font-main uppercase ">
+      <Link to="/">
+        <h1 className="flex items-center text-white no-underline">
+        <Link to="/" className="flex w-48" 
+       onMouseEnter={() => setText("सिंदवानी")}
+       onMouseLeave={() => setText("SINDWANI")}
+      >
+          <img src={SWNI} className="w-12 h-12 bg-white"/>
+          <h1 className="ml-4 text-white font-bold my-auto text-xl w-16">{text}</h1>
+        </Link>
+        </h1>
+      </Link>
 
-              <Link
-                to="/work"
-                className="block md:inline-block mt-4 md:mt-0 mr-0 md:mr-6 no-underline text-purple-700 font-bold"
-              >
-                <button className="font-bold py-2 px-4 rounded hover:text-white hover:bg-purple-700 bg-purple-700 text-white">
-                  Work
-                </button>
-              </Link>
+      <button
+        className="items-center block px-3 py-2 text-white border border-white rounded md:hidden"
+        onClick={() => toggleExpansion(!isExpanded)}
+      >
+        <svg
+          className="w-3 h-3 fill-current"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
 
-              <Link
-                to="/projects"
-                className="block md:inline-block mt-4 md:mt-0 mr-0 md:mr-6 no-underline text-purple-700 font-bold"
-              >
-                <button className="font-bold py-2 px-4 rounded hover:text-white hover:bg-purple-700 bg-purple-700 text-white">
-                  Projects
-                </button>
-              </Link>
-
-              <Link
-                to="/contact"
-                className="block md:inline-block mt-4 md:mt-0 mr-0 md:mr-6 no-underline text-purple-700 font-bold"
-              >
-                <button className="font-bold py-2 px-4 rounded hover:text-white hover:bg-purple-700 bg-purple-700 text-white">
-                  Contact
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
+      <nav
+        className={`${
+          isExpanded ? `block` : `hidden`
+        } md:block md:flex md:justify-between font-bold text-white md:items-center w-full max-w-lg `}
+      >
+          <a href="https://res.sindwani.com" target="_blank" rel="noopener noreferrer">Work</a>
+          <Link to="/projects">Projects</Link>
+          <Link to="/contact">Contact</Link>
+          <a href="https://instagam.com/varun.sindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Instagram} /></a>
+          <a href="https://twitter.com/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Twitter} /></a>
+          <a href="https://linkedin.com/in/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Linkedin} /></a>
       </nav>
-
+    </div>
+  </header>
   );
 }
 

@@ -1,13 +1,23 @@
 import React from 'react';
+import "../css/tailwind.css"
 
-import '../css/fonts.css';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-import HomePage from './home'
+import Layout from '../components/layout';
+import Intro from '../sections/intro';
+import Companies from '../sections/companies';
+import Tablist from '../sections/tablist';
+import Terminal from '../sections/terminal';
+import AboutMe from '../sections/aboutme';
+import CTA from '../sections/cta';
 
 const IndexPage = () => (
-  <HomePage />
+  <Layout>
+    <Intro />
+    <Companies />
+    <Tablist />
+    <Terminal />
+    <AboutMe />
+    <CTA />
+  </Layout>
 );
 
 export default IndexPage;
