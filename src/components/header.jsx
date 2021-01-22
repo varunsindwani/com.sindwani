@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
-
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import SWNI from '../assets/icons/swni.png';
 
 import Twitter from '../assets/icons/twitter-logo.png'
@@ -37,6 +38,7 @@ const Header = () =>  {
     //  </div>
     <header className="bg-primary">
     <div className="flex flex-wrap items-center justify-between px-4 lg:px-16 pt-8 pb-4 mx-auto font-main uppercase ">
+      <Fade>
       <Link to="/">
         <h1 className="flex items-center text-white no-underline">
         <Link to="/" className="flex w-48" 
@@ -48,7 +50,7 @@ const Header = () =>  {
         </Link>
         </h1>
       </Link>
-
+      </Fade>
       <button
         className="items-center block px-3 py-2 text-white border border-white rounded md:hidden"
         onClick={() => toggleExpansion(!isExpanded)}
@@ -68,12 +70,12 @@ const Header = () =>  {
           isExpanded ? `block` : `hidden`
         } md:block md:flex md:justify-between font-bold text-white md:items-center w-full max-w-lg `}
       >
-          <a href="https://res.sindwani.com" target="_blank" rel="noopener noreferrer">Work</a>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
-          <a href="https://instagam.com/varun.sindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Instagram} /></a>
-          <a href="https://twitter.com/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Twitter} /></a>
-          <a href="https://linkedin.com/in/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Linkedin} /></a>
+          <Slide down delay={300}><a href="https://res.sindwani.com" target="_blank" rel="noopener noreferrer">Work</a></Slide>
+          <Slide down delay={400}><Link to="/projects">Projects</Link></Slide>
+          <Slide down delay={500}><Link to="/contact">Contact</Link></Slide>
+          <Slide down delay={600}><a href="https://instagam.com/varun.sindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Instagram} /></a></Slide>
+          <Slide down delay={700}><a href="https://twitter.com/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Twitter} /></a></Slide>
+          <Slide down delay={800}><a href="https://linkedin.com/in/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Linkedin} /></a></Slide>
       </nav>
     </div>
   </header>

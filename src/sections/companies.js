@@ -1,5 +1,4 @@
 import React from 'react';
-
 import TEDx from '../assets/tedx.png'
 import Airgate from '../assets/images/airgate-black.png'
 import SCESOC from '../assets/images/scesoc.png'

@@ -1,6 +1,5 @@
 import React from 'react';
 import "../css/tailwind.css"
-
 import Layout from '../components/layout';
 import Intro from '../sections/intro';
 import Companies from '../sections/companies';

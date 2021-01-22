@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 
 import Varun from '../assets/images/varun.jpg'
 
+import Fade from 'react-reveal/Fade';
 
 var ReactRotatingText = require('react-rotating-text');
 
@@ -11,34 +12,49 @@ const Intro = () =>    {
     <section className="bg-primary pb-16 w-full md:pt-10 lg:pt-8 font-main min-h-screen">
         <div className="container mx-auto flex flex-wrap flex-col-reverse md:flex-col-reverse lg:flex-row">
             <div className="flex flex-col md:w-4/5 lg:w-3/5 items-start text-center md:text-left mx-auto">
+            <Fade >
                 <h1 className="text-6xl text-white font-bold tracking-tight font-main mb-8">Hi, I'm Varun.</h1>
+            </Fade>
+            <Fade delay={1600}>
                 <h2 className="text-2xl text-white tracking-wide mb-8">
                     I'm a Developer by ☀️ day and a Designer by 🌕 night. I'm currently looking for work 😀. Previously, I worked at a Microsoft Partner.     
                 </h2>
+            </Fade>
+            <Fade delay={2100}>
                 <h2 className="text-2xl text-white tracking-wide mb-8 ">
                     I serve as a 👨‍💻 Vice-President for the Systems and Computer Engineering Society of Carleton(SCESOC) and TEDxCU.
                 </h2>
+                </Fade>
+                <Fade delay={2600}>
                 <h2 className="text-2xl text-white tracking-wide mb-8">I am studying 💻 Software Engineering (B. Eng) at Carleton Universtiy and 🎨 UI/UX at OCADU.</h2>
+                </Fade>
+                <Fade delay={3100}>
                 <h2 className="text-2xl text-white tracking-wide mb-8">
-                    I make 🏫 educational posts about programming on my Instagram, you can also find my thoughts on Twitter and Youtube. In my free time, I like
+                    I make 🏫 educational posts about programming on my Instagram. In my free time, I like
                     to 📖 read, 🍲 cook, and play 🕹️ games.
                 </h2>
+                </Fade>
+                <Fade delay={3600}>
                 <div className="flex text-white">
                     <Link to="/#more"><button className="bg-one px-4 py-2 mr-8 font-bold">Learn More</button></Link>
                     <Link to="/contact"><button className="bg-two px-4 py-2 font-bold">Contact</button></Link>
                 </div>
+                </Fade>
+             
             </div>
+            <Fade delay={3600}>
       <div className="w-1/2 mr-auto md:w-1/3 lg:w-1/4 md:ml-auto md:mr-auto text-center items-center flex flex-col justify-center mx-auto">
           <img src={Varun} className="inline-block w-full rounded-full" />
           <h1 className="text-white mx-auto font-bold text-2xl mt-6"><ReactRotatingText items={
               [
-              'Developer + Designer',
               'I put the hack in hacker',
-              'I build cool things',
+              'Developer + Designer',
+              'I teach coding',
               'Game Developer',
               ]} />
           </h1>
       </div>
+      </Fade>
       </div>
   </section>
 );

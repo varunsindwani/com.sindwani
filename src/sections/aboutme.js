@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Gaming from '../assets/images/pixel.gif'
 import Teaching from '../assets/images/teaching.gif'
 import Food from '../assets/images/ramen.gif'

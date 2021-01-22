@@ -1,5 +1,6 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
+import Fade from 'react-reveal/Fade';
 
 import Hexagon from '../assets/hexagon.png'
 import Triangle from '../assets/triangle.png'

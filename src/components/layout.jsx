@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import Fade from 'react-reveal/Fade';
 import SEO from '../components/seo';
 import Header from './header';
 import Footer from './footer';
@@ -11,12 +11,16 @@ const Layout = ({children}) => {
     require("smooth-scroll")('a[href*="#"]')
   }
   return (
-    <div className="flex flex-col min-h-screen font-main">
+    <div className="flex flex-col min-h-screen font-main bg-primary">
+      <Fade delay={500}>
       <Header />
-      <main className="flex flex-col flex-1 w-full items-center ">
+      </Fade>
+      <Fade delay={1100}>
+      <main className="flex flex-col flex-1 w-full items-center bg-white">
         <SEO title="Varun Sindwani" />
         {children}
       </main>
+      </Fade>
       <Footer />
     </div>
   );
