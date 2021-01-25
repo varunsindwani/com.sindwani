@@ -37,7 +37,7 @@ const Header = () =>  {
     //    </div>
     //  </div>
     <header className="bg-primary">
-    <div className="flex flex-wrap items-center justify-between px-4 lg:px-16 pt-8 pb-4 mx-auto font-main uppercase ">
+    <div className="flex flex-wrap items-center justify-between px-4 lg:px-16 py-8  mx-auto font-main uppercase ">
       <Fade>
       <Link to="/">
         <h1 className="flex items-center text-white no-underline">
