@@ -51,7 +51,7 @@ const Links = () => {
                 <div>
                
                 </div>
-                <Link to="/" className="w-full max-w-xs mb-8 font-main">
+                <Link to="/" className="w-full max-w-xs mb-8 font-main mb-16">
                     <div className=" hover:opacity-100 rounded text-center overflow-hidden">
                         <div
                         className="py-24 rounded-3xl inline-block transform hover:scale-105 transition 
