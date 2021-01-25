@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'gatsby';
+
 import Varun from '../assets/images/varun.jpg'
 import Instagram from '../assets/icons/instagram-logo.png';
 import Youtube from '../assets/icons/youtube-logo.png';
@@ -10,11 +11,10 @@ import Linkedin from '../assets/icons/linkedin-logo.png';
 const Links = () => {
     var bg = {
         backgroundImage: `url(https://media.istockphoto.com/vectors/programming-code-application-window-vector-id1124838925?k=6&m=1124838925&s=612x612&w=0&h=TbuwIMLPlZxN9jbuTcJanRwX33tkgNF7_PiIPvpPVm4=)`,
-        // filter:`blur(1px)`,
     }
 
     return(
-    <div className="bg-primary max-h-screen h-screen text-white font-main flex flex-col">
+    <div className="bg-primary min-h-screen text-white font-main flex flex-col">
         <div className="">
             <div className="w-full max-w-xs mx-auto pt-16">
                 <div className="mb-8 bg-one rounded-3xl py-8">
