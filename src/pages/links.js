@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'gatsby';
+import "../css/tailwind.css"
 
 import Varun from '../assets/images/varun.jpg'
 import Instagram from '../assets/icons/instagram-logo.png';

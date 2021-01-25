@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/footer';
+import "../css/tailwind.css"
 
 const Todoswipe = () => (
   <div className="">
