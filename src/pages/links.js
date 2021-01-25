@@ -50,7 +50,7 @@ const Links = () => {
                 <div>
                
                 </div>
-                <Link to="/" className="w-full max-w-xs mb-8 font-main">
+                {/* <Link to="/" className="w-full max-w-xs mb-8 font-main">
                     <div className=" hover:opacity-100 rounded text-center overflow-hidden">
                         <div
                         className="py-24 rounded-3xl inline-block transform hover:scale-105 transition 
@@ -59,12 +59,9 @@ const Links = () => {
                             <div className="w-full text-6xl font-bold absolute shadow -m-8 text-center mx-auto text-white">Portfolio</div>
                         </div>
                     </div>
-                </Link>
+                </Link> */}
             </div>
         </div>
-        {/* <div className="mt-auto">
-            footer
-        </div> */}
     </div>
     )
 };
