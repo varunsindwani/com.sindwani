@@ -7,12 +7,10 @@ import Inkscape from '../assets/icons/inkscape.png';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import SWNI from '../assets/icons/swni.png';
-
+import "../css/tailwind.css"
 import Twitter from '../assets/icons/twitter-logo.png'
 import Instagram from '../assets/icons/instagram-logo.png'
 import Linkedin from '../assets/icons/linkedin-logo.png'
-
-import "../css/tailwind.css"
 
 const Todoswipe = () => (
     <>
