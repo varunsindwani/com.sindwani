@@ -17,7 +17,7 @@ const Intro = () =>    {
             </Fade>
             <Fade delay={1600}>
                 <h2 className="text-2xl text-white tracking-wide mb-8">
-                    I'm a Developer by ☀️ day and a Designer by 🌕 night. I'm currently looking for work 😀. Previously, I worked at a Microsoft Partner.     
+                ✌️ I'm a Toronto based Developer, specializing in Web Development. I am currently looking for 💻 work. Previously, I worked at a Microsoft Partner.     
                 </h2>
             </Fade>
             <Fade delay={2100}>

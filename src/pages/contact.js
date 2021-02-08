@@ -6,9 +6,11 @@ import Youtube from '../assets/icons/youtube-logo.png';
 import Github from '../assets/icons/github-logo.png';
 import Twitter from '../assets/icons/twitter-logo.png';
 import Linkedin from '../assets/icons/linkedin-logo.png';
+import SEO from '../components/seo';
 
 const ContactPage = () => (
   <Layout>
+    <SEO title="Varun Sindwani | Contact" />
     <div className="w-full bg-primary h-full min-h-screen">
     <section className="mt-24 font-main text-white text-center ">
         <h1 className="text-4xl font-bold">Contact</h1>

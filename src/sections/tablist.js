@@ -19,9 +19,9 @@ import Eight from '../assets/ig-posts/8.png'
 import Nine from '../assets/ig-posts/9.png'
 
 const Tablist = () =>  {
-    const [tabOne, setTabOne] = useState(false);
+    const [tabOne, setTabOne] = useState(true);
     const [tabTwo, setTabTwo] = useState(false);
-    const [tabThree, setTabThree] = useState(true);
+    const [tabThree, setTabThree] = useState(false);
     const [tabFour, setTabFour] = useState(false);
     const buttonOne = () => {
         setTabOne(true);

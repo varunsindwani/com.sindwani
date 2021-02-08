@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 // import Image from './image';
 // import Points from './points';
 // import PropTypes from 'prop-types';
-
+import SEO from '../components/seo';
 const Feature = props =>  {
     //add blur filter to image
     var bg = {
@@ -27,6 +27,7 @@ const Feature = props =>  {
 
 const ProjectsPage = () => (
   <Layout>
+        <SEO title="Varun Sindwani | Projects" />
       <div className="w-3/4 md:w-1/2 lg:w-1/2 pt-16">
       <div className="flex flex-col justify-center items-center w-full">
         <Feature  image="https://cdn.vox-cdn.com/thumbor/79AufWwkOKkzA6dbCV9x__QQxQc=/100x0:1180x720/2050x1367/cdn.vox-cdn.com/uploads/chorus_image/image/35138008/STF_van.0.png" 
