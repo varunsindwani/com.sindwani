@@ -73,7 +73,7 @@ const Header = () =>  {
           <Slide down delay={300}><a href="https://res.sindwani.com" target="_blank" rel="noopener noreferrer">Work</a></Slide>
           <Slide down delay={400}><Link to="/projects">Projects</Link></Slide>
           <Slide down delay={500}><Link to="/contact">Contact</Link></Slide>
-          <Slide down delay={600}><a href="https://instagam.com/varun.sindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Instagram} /></a></Slide>
+          <Slide down delay={600}><a href="https://instagram.com/varun.sindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Instagram} /></a></Slide>
           <Slide down delay={700}><a href="https://twitter.com/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Twitter} /></a></Slide>
           <Slide down delay={800}><a href="https://linkedin.com/in/varunsindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Linkedin} /></a></Slide>
       </nav>

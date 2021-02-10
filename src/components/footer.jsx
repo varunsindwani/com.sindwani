@@ -18,7 +18,7 @@ const Footer = () =>    {
           </div>
           <div className="mr-0 md:mr-16">
             <h1 className="font-bold text-md">Follow Me</h1>
-            <h1 className="mt-2"><a href="https://instagam.com/varun.sindwani" target="_blank" rel="noopener noreferrer" >Instagram</a></h1>
+            <h1 className="mt-2"><a href="https://instagram.com/varun.sindwani" target="_blank" rel="noopener noreferrer" >Instagram</a></h1>
             <h1><a href="https://linkedin.com/in/varunsindwani" target="_blank" rel="noopener noreferrer" >Linkedin</a></h1>
             <h1 className="mb-8"><a href="https://github.com/varunsindwani" target="_blank" rel="noopener noreferrer" >Github</a></h1>
           </div>
