@@ -70,7 +70,7 @@ const Header = () =>  {
           isExpanded ? `block` : `hidden`
         } md:block md:flex md:justify-between font-bold text-white md:items-center w-full max-w-lg `}
       >
-          <Slide down delay={300}><a href="https://res.sindwani.com" target="_blank" rel="noopener noreferrer">Work</a></Slide>
+          <Slide down delay={300}><a href="https://linkedin.com/in/varunsindwani" target="_blank" rel="noopener noreferrer">Work</a></Slide>
           <Slide down delay={400}><Link to="/projects">Projects</Link></Slide>
           <Slide down delay={500}><Link to="/contact">Contact</Link></Slide>
           <Slide down delay={600}><a href="https://instagram.com/varun.sindwani" target="_blank" rel="noopener noreferrer" className="w-4 h-4 my-auto"><img src={Instagram} /></a></Slide>
