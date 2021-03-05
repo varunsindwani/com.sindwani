@@ -99,7 +99,7 @@ const ContactPage = () => (
           <div className="h-1 w-full bg-two"></div>
           <div className="flex mt-4">
             <div>Want to book a call quickly click <a href="https://www.calendly.com/varunsindwani" className="underline font-bold" target="_blank" rel="noopener noreferrer">here</a>.</div>
-            <button type="submit" value="submit" className="ml-auto px-8 py-2 bg-two rounded-lg">Submit</button>
+            <input type="submit" value="submit" className="ml-auto px-8 py-2 bg-two rounded-lg cursor-pointer"/>
           </div>
         </div>
         </form>
