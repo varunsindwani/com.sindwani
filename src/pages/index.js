@@ -9,7 +9,7 @@ import AboutMe from '../sections/aboutme';
 import CTA from '../sections/cta';
 import Tri from '../assets/rtriangle.png'
 import SEO from '../components/seo';
-import Video from '../assets/clip.gif'
+// import Video from '../assets/clip.gif'
 import Hex from '../assets/hexagon.png'
 import one from '../assets/0.png'
 import two from '../assets/1.png'
