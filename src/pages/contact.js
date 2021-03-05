@@ -21,7 +21,7 @@ const ContactPage = () => (
     <Fade delay={1100}>
     <div className="mb-auto flex flex-col my-auto h-full">
       <SEO title="Varun Sindwani | Contact" />
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field className=" bg-primary  flex flex-col w-4/5 my-auto text-white mx-auto h-full">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" className=" bg-primary  flex flex-col w-4/5 my-auto text-white mx-auto h-full">
         <Fade delay={1600}><h1 className="text-6xl mb-8 font-bold">Lets get in touch</h1></Fade>
         <div className="flex flex-row h-3/4">
           <Fade delay={2100}>
