@@ -11,14 +11,13 @@ const Layout = ({children}) => {
   }
   return (
     <div className="flex flex-col min-h-screen font-main bg-primary">
-      <Fade delay={500}>
+      {/* <Fade delay={500}>
       <Header />
-      </Fade>
-      <Fade delay={1100}>
-      <main className="flex flex-col flex-1 w-full items-center bg-white">
+      </Fade> */}
+     
+      <main className="flex flex-col w-full items-center bg-primary">
         {children}
       </main>
-      </Fade>
       <Footer />
     </div>
   );

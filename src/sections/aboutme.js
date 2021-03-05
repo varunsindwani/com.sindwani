@@ -6,34 +6,6 @@ import Privacy from '../assets/images/hack.gif'
 
 const AboutMe = () =>    {
     return(
-    //     <section className="w-full mb-16">
-    //   <div className="w-full max-w-4xl mx-auto my-32  px-8 md:px-0 lg:px-0">
-    //     <div className="text-center max-w-md mx-auto">
-    //       <h1 className="font-bold text-3xl">Things I care about</h1>
-    //       <p className="text-lg mt-4">I'm passionate about lots of different topics, but below are some of the few I care deeply about</p>
-    //     </div>
-    //     <div className="mt-16">
-    //       <img src={Gaming} className="mb-8"/>
-    //       <h1 className="text-xl font-bold capitalize">GAMES</h1>
-    //       <p></p>
-    //     </div>
-    //     <div className="mt-16">
-    //       <img src={Teaching} className="mb-8"/>
-    //       <h1 className="text-xl font-bold capitalize">TEACHING</h1>
-    //       <p></p>
-    //     </div>
-    //     <div className="mt-16">
-    //       <img src={Food} className="mb-8 w-full"/>
-    //       <h1 className="text-xl font-bold capitalize">FOOD</h1>
-    //       <p></p>
-    //     </div>
-    //     <div className="mt-16">
-    //       <img src={Privacy} className="mb-8"/>
-    //       <h1 className="text-xl font-bold capitalize">INTERNET PRIVACY</h1>
-    //       <p></p>
-    //     </div>
-    //   </div>
-    // </section>
     <>
     <section>
     <div className="font-main text-center mt-16">

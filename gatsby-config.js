@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Varun Sindwani`,
-    description: `The Personal Website of Varun Sindwani`,
+    title: `Varun Sindwani | Development & Design`,
+    description: `Founder of Sindwani a Toronto based Web Development Agency. Leading early stage startups through
+                  complex problems by crafting solutions with the power of design.`,
     author: `Varun Sindwani`,
   },
   plugins: [
@@ -29,7 +30,7 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true,
-        develop: true,
+        develop: false,
         tailwind: true,
         purgeOnly : ['src/css/tailwind.css'],
       }

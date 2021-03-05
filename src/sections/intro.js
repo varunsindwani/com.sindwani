@@ -2,31 +2,38 @@ import React from 'react';
 import { Link } from "gatsby";
 
 import Varun from '../assets/images/varun.jpg'
-
+import Header from "../components/header"
 import Fade from 'react-reveal/Fade';
 
 var ReactRotatingText = require('react-rotating-text');
 
 const Intro = () =>    {
     return(
-    <section className="bg-primary pb-16 w-full md:pt-10 lg:pt-8 font-main min-h-screen">
-        <div className="container mx-auto flex flex-wrap flex-col-reverse md:flex-col-reverse lg:flex-row">
+    <section className="bg-primary pb-16 w-full font-main min-h-screen h-full flex flex-col">
+      <Fade delay={500}>
+        <Header />
+      </Fade>
+      <Fade delay={1100}>
+        <div className="container mx-auto flex flex-wrap flex-col-reverse md:flex-col-reverse lg:flex-row my-auto">
             <div className="flex flex-col md:w-4/5 lg:w-3/5 items-start text-center md:text-left mx-auto">
             <Fade >
                 <h1 className="text-6xl text-white font-bold tracking-tight font-main mb-8">Hi, I'm Varun.</h1>
             </Fade>
             <Fade delay={1600}>
                 <h2 className="text-2xl text-white tracking-wide mb-8">
-                ✌️ I'm a Toronto based Developer, specializing in Web Development. I am currently looking for 💻 work. Previously, I worked at a Microsoft Partner.     
+                ✌️ I am the founder of Sindwani a 🇨🇦 Toronto based 💻 Web Development Agency. Previously, I worked at a Microsoft Partner.     
                 </h2>
             </Fade>
+           
             <Fade delay={2100}>
                 <h2 className="text-2xl text-white tracking-wide mb-8 ">
-                    I serve as a 👨‍💻 Vice-President for the Systems and Computer Engineering Society of Carleton(SCESOC) and TEDxCU.
+                 I lead ⚡ early stage startups through 🤕 complex problems by 🔧 crafting solutions with the power of 🎨 design.
+                   
                 </h2>
                 </Fade>
                 <Fade delay={2600}>
-                <h2 className="text-2xl text-white tracking-wide mb-8">I am studying 💻 Software Engineering (B. Eng) at Carleton Universtiy and 🎨 UI/UX at OCADU.</h2>
+                <h2 className="text-2xl text-white tracking-wide mb-8">
+                I serve as a 👨‍💻 Vice-President for the Systems and Computer Engineering Society of Carleton(SCESOC) and TEDxCU.</h2>
                 </Fade>
                 <Fade delay={3100}>
                 <h2 className="text-2xl text-white tracking-wide mb-8">
@@ -37,7 +44,7 @@ const Intro = () =>    {
                 <Fade delay={3600}>
                 <div className="flex text-white">
                     <Link to="/#more"><button className="bg-one px-4 py-2 mr-8 font-bold">Learn More</button></Link>
-                    <Link to="/contact"><button className="bg-two px-4 py-2 font-bold">Contact</button></Link>
+                    <Link to="/contact"><button className="bg-two px-4 py-2 font-bold">Get a Free Proposal</button></Link>
                 </div>
                 </Fade>
              
@@ -56,6 +63,7 @@ const Intro = () =>    {
       </div>
       </Fade>
       </div>
+      </Fade>
   </section>
 );
 }

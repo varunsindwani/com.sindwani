@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import Fade from 'react-reveal/Fade';
 
 import Hexagon from '../assets/hexagon.png'
+import Engineering from '../assets/engineering.png'
+import Design from '../assets/design.png'
+import Thing from '../assets/thing.png'
+import Marketing from '../assets/marketing.png'
 import Triangle from '../assets/triangle.png'
 import Curious from '../assets/images/curious.png'
 import Adaptable from '../assets/images/adaptable.png'
@@ -245,6 +249,19 @@ const Tablist = () =>  {
     const Text3 = () =>    {
         if(tabThree == true)  {
             return (
+                <h1 className="mt-4 text-lg captialize text-center mb-2 text-highlight">Branding</h1>
+            )
+        }
+        else    {
+            return (
+                <h1 className="mt-4 text-lg captialize text-center mb-2">Branding</h1>
+            )
+        }
+    }
+
+    const Text4 = () =>    {
+        if(tabFour == true)  {
+            return (
                 <h1 className="mt-4 text-lg captialize text-center mb-2 text-highlight">Marketing</h1>
             )
         }
@@ -254,28 +271,15 @@ const Tablist = () =>  {
             )
         }
     }
-
-    const Text4 = () =>    {
-        if(tabFour == true)  {
-            return (
-                <h1 className="mt-4 text-lg captialize text-center mb-2 text-highlight">Product</h1>
-            )
-        }
-        else    {
-            return (
-                <h1 className="mt-4 text-lg captialize text-center mb-2">Product</h1>
-            )
-        }
-    }
     return  (
-    <section className="bg-white w-full mt-16 mb-24">
+    <section className="bg-white w-full pt-16 pb-24">
         <h1 className="text-center font-bold text-3xl w-full">My Services</h1>
         <h1 className="text-center text-xl w-full mt-8">I help businesses surpass their goals.</h1>
         <ul className="mt-16 flex max-w-4xl mx-auto justify-between">
             <div className="h-48 flex flex-col">
                 <div className="cursor-pointer" onClick={() => buttonOne()}>
                     <li className="">
-                        <img src={Hexagon} className="w-24 mx-auto" />
+                        <img src={Engineering} className="w-24 mx-auto" />
                         {Text1()}   
                                                     
                     </li>
@@ -285,7 +289,7 @@ const Tablist = () =>  {
             <div className="h-48 flex flex-col">
                 <div className="cursor-pointer" onClick={() => buttonTwo()}>
                     <li className="">
-                        <img src={Hexagon} className="w-24 mx-auto" />
+                        <img src={Design} className="w-24 mx-auto" />
                         {Text2()}  
                                                         
                     </li>
@@ -295,7 +299,7 @@ const Tablist = () =>  {
             <div className="h-48 flex flex-col">
                 <div className="cursor-pointer" onClick={() => buttonThree()}>
                     <li className="">
-                        <img src={Hexagon} className="w-24 mx-auto" />
+                        <img src={Thing} className="w-24 mx-auto" />
                         {Text3()}
                                                         
                     </li>
@@ -305,7 +309,7 @@ const Tablist = () =>  {
             <div className="h-48 flex flex-col">
                 <div className="cursor-pointer" onClick={() => buttonFour()}>
                     <li className="">
-                        <img src={Hexagon} className="w-24 mx-auto" />
+                        <img src={Marketing} className="w-24 mx-auto" />
                         {Text4()}
                                                 
                     </li>

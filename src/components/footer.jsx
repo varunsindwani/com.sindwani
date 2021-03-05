@@ -5,8 +5,8 @@ import SWNI from '../assets/icons/swni.png'
 
 const Footer = () =>    {
     return(
-      <footer id="courses" className="bg-primary pt-12 text-white px-8">
-        <div className="m-4 max-w-5xl mx-auto flex flex-col md:flex-row mb-8 ">
+      <footer id="courses" className="bg-primary pt-12 text-white px-8 w-full">
+        <div className="m-4 px-4 lg:px-16 mx-auto flex flex-col md:flex-row mb-8 ">
           <div className="mx-auto md:mx-0 mb-16 md:mb-0">
             <img src={SWNI} className="w-20"/>
           </div>
