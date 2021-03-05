@@ -21,7 +21,7 @@ const ContactPage = () => (
     <Fade delay={1100}>
     <div className="mb-auto flex flex-col my-auto h-full">
       <SEO title="Varun Sindwani | Contact" />
-      <form name="contact" className=" bg-primary  flex flex-col w-4/5 my-auto text-white mx-auto h-full" method="post" netlify  netlify-honeypot="bot-field" hidden>
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field className=" bg-primary  flex flex-col w-4/5 my-auto text-white mx-auto h-full">
         <Fade delay={1600}><h1 className="text-6xl mb-8 font-bold">Lets get in touch</h1></Fade>
         <div className="flex flex-row h-3/4">
           <Fade delay={2100}>
@@ -99,7 +99,7 @@ const ContactPage = () => (
           <div className="h-1 w-full bg-two"></div>
           <div className="flex mt-4">
             <div>Want to book a call quickly click <a href="https://www.calendly.com/varunsindwani" className="underline font-bold" target="_blank" rel="noopener noreferrer">here</a>.</div>
-            <button type="submit" className="ml-auto px-8 py-2 bg-two rounded-lg">Submit</button>
+            <button type="submit" value="submit" className="ml-auto px-8 py-2 bg-two rounded-lg">Submit</button>
           </div>
         </div>
         </form>
