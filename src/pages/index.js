@@ -9,16 +9,14 @@ import AboutMe from '../sections/aboutme';
 import CTA from '../sections/cta';
 import Tri from '../assets/rtriangle.png'
 import SEO from '../components/seo';
-// import Video from '../assets/clip.gif'
-import Hex from '../assets/hexagon.png'
+import Video from '../assets/clip.gif'
 import one from '../assets/0.png'
 import two from '../assets/1.png'
 import three from '../assets/2.png'
 import four from '../assets/3.png'
 const IndexPage = () => {
   var bg = {
-    backgroundImage: `url(${"https://drive.google.com/uc?export=view&id=1eoL-7ivX_A-nEGPaKa5iMA1Xbn0XCnYX"})`,
-   
+    backgroundImage: `url(${Video})`,
   }
 
   return(
