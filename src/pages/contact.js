@@ -1,11 +1,5 @@
 import React from 'react';
 
-import Layout from '../components/layout';
-import Instagram from '../assets/icons/instagram-logo.png';
-import Youtube from '../assets/icons/youtube-logo.png';
-import Github from '../assets/icons/github-logo.png';
-import Twitter from '../assets/icons/twitter-logo.png';
-import Linkedin from '../assets/icons/linkedin-logo.png';
 import SEO from '../components/seo';
 
 import Fade from 'react-reveal/Fade';
@@ -21,7 +15,7 @@ const ContactPage = () => (
     <Fade delay={1100}>
     <div className="mb-auto flex flex-col my-auto h-full">
       <SEO title="Varun Sindwani | Contact" />
-      <form action="/thank-you" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className=" bg-primary  flex flex-col w-4/5 my-auto text-white mx-auto h-full">
+      <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className=" bg-primary  flex flex-col w-4/5 my-auto text-white mx-auto h-full">
         <input type="hidden" name="form-name" value="contact" />
         <Fade delay={1600}><h1 className="text-6xl mb-8 font-bold">Lets get in touch</h1></Fade>
         <div className="flex flex-row h-3/4">
@@ -33,11 +27,11 @@ const ContactPage = () => (
               <div className="flex flex-row mt-6">
                 <div className="max-w-sm w-full">
                   <h3 className="text-2xl font-bold">What is your full name?</h3>
-                  <input type="text" name="name" className="w-full border-4 border-primary focus:border-two px-4 py-2 mt-4 rounded-lg" placeholder="Arya Stark"/>
+                  <input type="text" name="name" className="text-black w-full border-4 border-primary focus:border-two px-4 py-2 mt-4 rounded-lg" placeholder="Arya Stark"/>
                 </div>
                 <div className="mx-auto max-w-sm w-full">
                   <h3 className="text-2xl font-bold">What is your email?</h3>
-                  <input type="email" name="email" className="w-full border-4 border-primary focus:border-two px-4 py-2 mt-4 rounded-lg" placeholder="arya@stark.com"/>
+                  <input type="email" name="email" className="text-black w-full border-4 border-primary focus:border-two px-4 py-2 mt-4 rounded-lg" placeholder="arya@stark.com"/>
                 </div>
               </div>
             </div>
