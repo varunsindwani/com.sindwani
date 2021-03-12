@@ -162,7 +162,7 @@ const ProjectsPage = () => {
                 </div>
                 <div className="ml-auto">
                   <div>‣ Developement</div>
-                  <div className="mt-4">‣ Point 1</div>
+                  <div className="mt-4">‣ Design System</div>
                 </div>
               </div>
               <div className="mt-10 px-4 py-3 rounded-lg bg-yellow-500 w-40 text-center text-white font-bold border-white border-8">Coming Soon</div>
@@ -188,7 +188,7 @@ const ProjectsPage = () => {
                 </div>
                 <div className="ml-auto">
                   <div>‣ Developement</div>
-                  <div className="mt-4">‣ Point 1</div>
+                  <div className="mt-4">‣ Design System</div>
                 </div>
               </div>
               <div className="mt-10 px-4 py-3 rounded-lg bg-valerian w-40 text-center text-white font-bold border-8 border-white">Coming Soon</div>
@@ -213,7 +213,7 @@ const ProjectsPage = () => {
                 </div>
                 <div className="ml-auto">
                   <div>‣ Developement</div>
-                  <div className="mt-4">‣ Point 1</div>
+                  <div className="mt-4">‣ Design System</div>
                 </div>
               </div>
               <div className="mt-10 px-4 py-3 rounded-lg bg-banner w-40 text-center text-white font-bold border-8 border-white">Coming Soon</div>
