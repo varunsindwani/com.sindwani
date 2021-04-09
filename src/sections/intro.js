@@ -21,7 +21,7 @@ const Intro = () =>    {
             </Fade>
             <Fade delay={1600}>
                 <h2 className="text-2xl text-white tracking-wide mb-8">
-                ✌️ I am the founder of Sindwani a 🇨🇦 Toronto based 💻 Web Development Agency. Previously, I worked at a Microsoft Partner.     
+                ✌️ I am the founder of SINDWANI a 🇨🇦 Toronto based 💻 Web Development Agency. Previously, I worked at a Microsoft Partner.     
                 </h2>
             </Fade>
            
